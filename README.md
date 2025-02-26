@@ -6,20 +6,27 @@ Práctica 01
 El club de fútbol New Team, famoso por sus jugadores y entrenadores destacados, ha decidido
 implementar un nuevo sistema de gestión de personal. Este sistema debe ser capaz de manejar la
 información de entrenadores y jugadores de manera eficiente.
+
 1. Gestión de Personal:
-Diseña una estructura base que pueda ser utilizada para representar a cualquier empleado
-del club. Esta estructura debe incluir información esencial como un identificador único y
-gestionado por el sistema de almacenamiento (es decir, por mucho que se indique, será el
-sistema quién los asigne para evitar conflictos), nombre, apellidos, fecha de nacimiento,
-fecha de incorporación al club, salario, y país de origen.
+   
+  Diseña una estructura base que pueda ser utilizada para representar a cualquier empleado
+  del club. Esta estructura debe incluir información esencial como un identificador único y
+  gestionado por el sistema de almacenamiento (es decir, por mucho que se indique, será el
+  sistema quién los asigne para evitar conflictos), nombre, apellidos, fecha de nacimiento,
+  fecha de incorporación al club, salario, y país de origen.
+
 2. Entrenadores:
-Además de la información general, cada entrenador debe tener un campo adicional que
-indique su área de especialización. Las especialidades posibles incluyen entrenador de
-porteros, entrenador principal y entrenador asistente.
+   
+  Además de la información general, cada entrenador debe tener un campo adicional que
+  indique su área de especialización. Las especialidades posibles incluyen entrenador de
+  porteros, entrenador principal y entrenador asistente.
+  
 3. Jugadores:
-Además de la información general, cada jugador debe incluir detalles como su posición en
-el campo (portero, defensa, centrocampista o delantero), número de camiseta, altura,
-peso, número de goles anotados y partidos jugados.
+   
+  Además de la información general, cada jugador debe incluir detalles como su posición en
+  el campo (portero, defensa, centrocampista o delantero), número de camiseta, altura,
+  peso, número de goles anotados y partidos jugados.
+
 Necesitamos crear un servicio con caché LRU de máximo 5 elementos para gestionar nuestro personal
 con las operaciones CRUD. Los datos deben estar validados para evitar problemas de entrada de datos
 en el sistema de almacenamiento central. Debemos tener en cuenta que los datos nos pueden llegar por
@@ -27,17 +34,19 @@ consola y ficheros en formato CSV, XML, JSON y Binario (con un formato estableci
 desarrollador/a que pueda ser compatible con todos los lenguajes existentes) y que esos mismos
 formatos serán los soportados para la salida de la información. Toda salida de información por consola
 debe estar localizada según lo indicado en el fichero de configuración.
+
 Tendremos un menú con las siguientes opciones:
+
 1. Cargar datos desde fichero según la especificación indicada.
 2. Crear miembro del equipo.
 3. Actualizar miembro de equipo.
 4. Eliminar miembro del equipo.
 5. Copiar datos a fichero según la especificación realizada.
 6. Realizar consultas indicadas.
+
 Además, una vez seleccionado todos los elementos debemos obtener las siguientes consultas:
 1. Listados de personal agrupados por entrenadores y jugadores.
 2. El delantero más alto.
-Nombre: página 2/3
 3. Media de goles de los delanteros.
 4. Defensa con más partidos jugados.
 5. Jugadores agrupados por su país de origen.
@@ -68,6 +77,7 @@ salario más alto.
 jugados.
 28. Salario promedio de los jugadores agrupados por su país de origen, y dentro de cada grupo, el
 jugador con el salario más bajo y alto.
+
 - Se debe entregar el proyecto funcional en ejecutable jar, configurable mediante ficheros de
 configuración, con todos los elementos que lo formen testeados.
 - Se debe seguir el modelo de trabajo con GitFlow/Git/Pull Request.
@@ -89,9 +99,9 @@ solución parcial aportada por dicho elemento.
 - Patrones aportados en la solución y ejemplos de uso.
 - Ejemplos de ejecución del código
 - Explicación de las consultas y ejemplos de salidas de cada una de ellas.
-Nombre: página 3/3
 - Explicación teórico-práctica de cada prueba o conjunto de test relevantes realizados.
 - Captura de la cobertura del código en test.
 - Estimación económica de la ejecución del proyecto.
+  
 Fecha de entrega: 5 de marzo de 2025 a las 15:15, mediante repositorio con documentación en PDF y
 código del ejemplo. Exposición de 10 minutos por grupo
