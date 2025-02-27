@@ -1,7 +1,6 @@
 id,nombre,apellidos,fecha_nacimiento,fecha_incorporacion,salario,pais,rol,especialidad,posicion,dorsal,altura,peso,goles,partidos_jugados
 1,Roberto,Hongo,1960-07-17,2000-01-01,60000.0,Brasil,Entrenador,ENTRENADOR_PRINCIPAL,,,,,,
 2,Oliver,Atom,1983-04-10,2001-05-15,35000.0,España,Jugador,,DELANTERO,10,1.75,65.0,70,150
-2,Olivar,Atom,1983-04-10,2001-05-15,35000.0,España,Jugador,,DELANTERO,10,1.75,65.0,70,150
 3,Benji,Price,1983-11-07,2001-05-15,34000.0,Alemania,Jugador,,PORTERO,1,1.83,78.0,0,200
 4,Freddy,Marshall,1965-09-22,2005-04-10,55000.0,España,Entrenador,ENTRENADOR_PORTEROS,,,,,,
 5,Tom,Baker,1984-03-20,2001-05-15,32000.0,Inglaterra,Jugador,,CENTROCAMPISTA,8,1.72,63.0,30,140
